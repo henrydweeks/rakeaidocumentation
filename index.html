@@ -25,9 +25,9 @@
               
                 
                 <li><a
-                  href='#initbots'
+                  href='#createsession'
                   class="">
-                  initBots
+                  createSession
                   
                 </a>
                 
@@ -35,9 +35,9 @@
               
                 
                 <li><a
-                  href='#addmodule'
+                  href='#push2operator'
                   class="">
-                  addModule
+                  push2operator
                   
                 </a>
                 
@@ -45,109 +45,9 @@
               
                 
                 <li><a
-                  href='#facebook_handler'
+                  href='#endsession'
                   class="">
-                  facebook_handler
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#addfacebook'
-                  class="">
-                  addFacebook
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#addtwilio'
-                  class="">
-                  addTwilio
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#addrakelivechat'
-                  class="">
-                  addRakeLiveChat
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#registrationentity'
-                  class="">
-                  registrationEntity
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#inboundhistory'
-                  class="">
-                  inboundHistory
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#db'
-                  class="">
-                  db
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#incontacttoken'
-                  class="">
-                  inContactToken
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#addictoken'
-                  class="">
-                  addiCToken
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#fb_unsubscribed'
-                  class="">
-                  fb_unsubscribed
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#fb_subscribed'
-                  class="">
-                  fb_subscribed
+                  endSession
                   
                 </a>
                 
@@ -168,19 +68,19 @@
   
   <div class='clearfix'>
     
-    <h3 class='fl m0' id='initbots'>
-      initBots
+    <h3 class='fl m0' id='createsession'>
+      createSession
     </h3>
     
     
   </div>
   
 
-  <p>Instantiates bots</p>
+  <p>This method creates a session</p>
 
  
   
-    <div class='pre p1 fill-light mt0'>initBots(iCTokens: any, bots: any, controllers: any, BotID: any)</div>
+    <div class='pre p1 fill-light mt0'>createSession</div>
    
   
   
@@ -198,100 +98,7 @@
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>iCTokens</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>bots</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controllers</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>BotID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='addmodule'>
-      addModule
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Add a module to a bot</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>addModule(ModuleID: any, controller: any, channel: any, fullBotID: any, BotID: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>ModuleID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controller</span> <code class='quiet'>(any)</code>
+            <span class='code bold'>chatId</span> <code class='quiet'>(any)</code>
 	    
           </div>
           
@@ -300,738 +107,6 @@
         <div class='space-bottom0'>
           <div>
             <span class='code bold'>channel</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>fullBotID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>BotID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='facebook_handler'>
-      facebook_handler
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>handler for facebook platform</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>facebook_handler</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>obj</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>botID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='addfacebook'>
-      addFacebook
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Add the facebook platform</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>addFacebook(bot: any, controllers: any, bots: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>bot</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controllers</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>bots</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='addtwilio'>
-      addTwilio
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Add the Twilio platform</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>addTwilio(bot: any, controllers: any, bots: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>bot</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controllers</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>bots</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='addrakelivechat'>
-      addRakeLiveChat
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Add the rake live chat platform</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>addRakeLiveChat(bot: any, controllers: any, bots: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>bot</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controllers</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>bots</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='registrationentity'>
-      registrationEntity
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>This method creates users across different platforms</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>registrationEntity(controller: any, PageAccessToken: any, channel: any, fullBotID: any, botID: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controller</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>PageAccessToken</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>channel</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>fullBotID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>botID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='inboundhistory'>
-      inboundHistory
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>This method updates the inbound session history in the database</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>inboundHistory(controller: any, channel: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controller</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>channel</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='db'>
-      db
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>botkit-storage-mongo - MongoDB driver for Botkit</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>db(config: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>config</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-    
-      <div class='py1 quiet mt1 prose-big'>Returns</div>
-      <code><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></code>:
-        
-
-      
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='incontacttoken'>
-      inContactToken
-    </h3>
-    
-    
-  </div>
-  
-
-  
- 
-  
-    <div class='pre p1 fill-light mt0'>new inContactToken()</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='addictoken'>
-      addiCToken
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Adds a new inContact Token</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>addiCToken(iCTokens: any, InContactAppConfigID: any, InContactBotID: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>iCTokens</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>InContactAppConfigID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>InContactBotID</span> <code class='quiet'>(any)</code>
-	    
-          </div>
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id='fb_unsubscribed'>
-      fb_unsubscribed
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Handles removing a facebook subscriber</p>
-
- 
-  
-    <div class='pre p1 fill-light mt0'>fb_unsubscribed(controller: any, token: any)</div>
-   
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-    <div class='py1 quiet mt1 prose-big'>Parameters</div>
-    <div class='prose'>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code bold'>controller</span> <code class='quiet'>(any)</code>
 	    
           </div>
           
@@ -1045,6 +120,14 @@
           
         </div>
       
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>bot_config</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
     </div>
   
 
@@ -1070,19 +153,18 @@
   
   <div class='clearfix'>
     
-    <h3 class='fl m0' id='fb_subscribed'>
-      fb_subscribed
+    <h3 class='fl m0' id='push2operator'>
+      push2operator
     </h3>
     
     
   </div>
   
 
-  <p>Handles a new facebook subscriber</p>
-
+  
  
   
-    <div class='pre p1 fill-light mt0'>fb_subscribed(controller: any, token: any)</div>
+    <div class='pre p1 fill-light mt0'>push2operator</div>
    
   
   
@@ -1100,7 +182,7 @@
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>controller</span> <code class='quiet'>(any)</code>
+            <span class='code bold'>token</span> <code class='quiet'>(any)</code>
 	    
           </div>
           
@@ -1108,7 +190,92 @@
       
         <div class='space-bottom0'>
           <div>
+            <span class='code bold'>chatSessionId</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>body</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>action</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='endsession'>
+      endSession
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>This method ends a session</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>endSession</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
             <span class='code bold'>token</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>chatSessionId</span> <code class='quiet'>(any)</code>
 	    
           </div>
           
